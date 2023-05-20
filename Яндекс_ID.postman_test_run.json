@@ -1,0 +1,132 @@
+{
+	"id": "4d02feb0-8ff8-4cff-bc15-0dc64440149e",
+	"name": "Яндекс_ID",
+	"timestamp": "2023-05-20T15:11:20.971Z",
+	"collection_id": "24132008-0ff2ed77-f4b5-4950-a26c-c412ab31f3da",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-05-20T15:11:17.992Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "0c2c401a-9093-4224-b764-0806aa6f8252",
+			"name": "Войти в лк ID",
+			"url": "https://passport.yandex.ru/registration-validations/auth/multi_step/start",
+			"time": 193,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				193
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b9557b39-0b64-4815-b360-c6fa99a122fb",
+			"name": "Данные в ЛК",
+			"url": "https://id.yandex.ru/security/graphql",
+			"time": 830,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				830
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f7ca17bc-ab0b-40b3-b62a-e7da64a3bd20",
+			"name": "Создать Питомца",
+			"url": "https://id.yandex.ru/security/graphql",
+			"time": 212,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				212
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7d3e7771-3b7b-4ef8-ab72-85b5591b79a0",
+			"name": "Удалить Питомца",
+			"url": "https://id.yandex.ru/security/graphql",
+			"time": 239,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				239
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c29ca1c1-7f68-4b97-a59c-9305b5f04a72",
+			"name": "Добавление ИНН",
+			"url": "https://id.yandex.ru/security/graphql",
+			"time": 218,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				218
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1692,
+	"collection": {
+		"requests": [
+			{
+				"id": "0c2c401a-9093-4224-b764-0806aa6f8252",
+				"method": "POST"
+			},
+			{
+				"id": "b9557b39-0b64-4815-b360-c6fa99a122fb",
+				"method": "POST"
+			},
+			{
+				"id": "f7ca17bc-ab0b-40b3-b62a-e7da64a3bd20",
+				"method": "POST"
+			},
+			{
+				"id": "7d3e7771-3b7b-4ef8-ab72-85b5591b79a0",
+				"method": "POST"
+			},
+			{
+				"id": "c29ca1c1-7f68-4b97-a59c-9305b5f04a72",
+				"method": "POST"
+			}
+		]
+	}
+}

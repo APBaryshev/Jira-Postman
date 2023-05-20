@@ -1,0 +1,132 @@
+{
+	"id": "5c609210-07cc-49d7-ad5f-02b4b753a25c",
+	"name": "Яндекс_Почта",
+	"timestamp": "2023-05-20T15:12:49.422Z",
+	"collection_id": "24132008-84739434-3b5d-4bb1-a987-06e07403871a",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-05-20T15:12:47.403Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "105a1b17-35b2-41f8-81dc-35bfa1a4165b",
+			"name": "Отправка письма",
+			"url": "https://mail.yandex.ru/web-api/do-send/liza1?_send=true",
+			"time": 423,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				423
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "73422e5d-759e-488a-a03f-9fb956dd370c",
+			"name": "Письмо в Удаленные",
+			"url": "https://mail.yandex.ru/web-api/models/liza1?_m=do-messages,folders,labels,tabs",
+			"time": 69,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				69
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2751a18a-8ded-4bce-be1e-ea8b39961641",
+			"name": "Очистка папки Удаленные",
+			"url": "https://mail.yandex.ru/web-api/models/liza1?_m=do-folder-clear,folders,labels,messages",
+			"time": 74,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				74
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7dfb5341-604b-4b9a-b857-2a1b4d1abcc8",
+			"name": "Создание новой Папки",
+			"url": "https://mail.yandex.ru/web-api/models/liza1?_m=do-folders-add,folders",
+			"time": 64,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				64
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e09a09a8-6b12-4c13-97fc-0799490c1dc8",
+			"name": "Очистить папку Спам",
+			"url": "https://mail.yandex.ru/web-api/models/liza1?_m=do-folder-clear,folders,labels,messages",
+			"time": 68,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				68
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 698,
+	"collection": {
+		"requests": [
+			{
+				"id": "105a1b17-35b2-41f8-81dc-35bfa1a4165b",
+				"method": "POST"
+			},
+			{
+				"id": "73422e5d-759e-488a-a03f-9fb956dd370c",
+				"method": "POST"
+			},
+			{
+				"id": "2751a18a-8ded-4bce-be1e-ea8b39961641",
+				"method": "POST"
+			},
+			{
+				"id": "7dfb5341-604b-4b9a-b857-2a1b4d1abcc8",
+				"method": "POST"
+			},
+			{
+				"id": "e09a09a8-6b12-4c13-97fc-0799490c1dc8",
+				"method": "POST"
+			}
+		]
+	}
+}

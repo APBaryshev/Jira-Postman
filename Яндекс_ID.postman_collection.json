@@ -1,0 +1,467 @@
+{
+	"info": {
+		"_postman_id": "0ff2ed77-f4b5-4950-a26c-c412ab31f3da",
+		"name": "Яндекс_ID",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24132008"
+	},
+	"item": [
+		{
+			"name": "Войти в лк ID",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json, text/javascript, */*; q=0.01"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded; charset=UTF-8"
+					},
+					{
+						"key": "Cookie",
+						"value": "_ym_uid=1659030048192709895; is_gdpr=0; is_gdpr_b=CLryEBD8gAEoAg==; gdpr=0; uniqueuid=248479451659030679; mda=0; my=YwA=; amcuid=8921281611659030730; font_loaded=YSv1; mda2_domains=dzen.ru,ya.ru; i=80GRi7Sc7gzTdskt5H67GNw/+9fESsTBxxLQ8T10Mu+r2SRM/Tb+r8GTm5dnTi9qJLAii/7ODFdmeTiZTwbJDF3/8vk=; yandexuid=9840739331659029968; yuidss=9840739331659029968; ymex=1995541837.yrts.1680181837#1983346849.yrtsi.1667986849; _ym_isad=2; sae=0:4106F3C0-5C36-4650-B042-700908D6E212:p:23.3.4.603:w:d:RU:20220213; pf=eyJmbGFzaCI6e319; pf.sig=WEkihpon3qfXt708UtZSzfT2k62TloAdz1jg6_iLs5Q; cycada=badDhefcShbk5OLvcKCAFv/soogrVcD6wREls1vfys4=; _yasc=ltVz/Wj3cxam93ThXKtRNVULkqTd1XZCsDCLLjXhaL6VdwJgh5UTsHD5Em9Vkg+d32Y8ajbTqhYpsHQ1MCE794Jxto0=; _ym_d=1684513373; bh=EjwiQ2hyb21pdW0iO3Y9IjExMCIsICJOb3QgQShCcmFuZCI7dj0iMjQiLCAiWWFCcm93c2VyIjt2PSIyMyIaBSJ4ODYiIgwiMjMuMy40LjYwMyIqAj8wOgkiV2luZG93cyJCCCIxMC4wLjAiSgQiNjQiUlQiQ2hyb21pdW0iO3Y9IjExMC4wLjU0ODEuMjA4IiwiTm90IEEoQnJhbmQiO3Y9IjI0LjAuMC4wIiwiWWFCcm93c2VyIjt2PSIyMy4zLjQuNjAzIiI=; _ym_visorc=b; Session_id=3:1684513266.5.2.1666975324998:xjyKLg:86.1.2:1|247129982.13492526.2.2:16515180.3:1683490504|343275130.14917154.2.2:14917154.3:1681892478|1660167920.16141192.2.2:16141192.3:1683116516|3:10270087.347773.ysFe9It-PISpbUIw4Q1SFOfF45U; sessar=1.99.CiCC6omrE_ucFNtdyKfqyn_S1ikoaTBDR_AQ7XvXH43SWg.3JjWKcMQZkDQHDetl5i7gpb7QiLpN4W4p3ekyfcH-xk; sessionid2=3:1684513266.5.2.1666975324998:xjyKLg:86.1.2:1|247129982.13492526.2.2:16515180.3:1683490504|343275130.14917154.2.2:14917154.3:1681892478|1660167920.16141192.2.2:16141192.3:1683116516|3:10270087.347773.fakesign0000000000000000000; sessguard=1.1684513266.1666975324998:xjyKLg:86..3.500:34750.UJHKZ9gS.KvXkovFJy_tPgk1fB2ZNoOXvdrY; yp=1684588876.uc.ru#1684588876.duc.ru#1995825834.skin.d#1716049349.cld.2270452#1716049349.brd.0401003747#1995825909.multib.1#1700281235.szm.1:1366x768:1366x195#1687191640.csc.1#1999873266.udn.cDpjb3JwLWlwYmFyeXNoZXZhbmRyZWlwYXZsODc0MTk%3D#1999870300.pcs.1#1685264696.hdrc.1#1998853005.hks.0#1684520476.gpauto.55_221539:38_045082:100000:3:1684513276#1684850418.mcv.0#1684850418.mcl.1szut3m; ys=udn.cDpjb3JwLWlwYmFyeXNoZXZhbmRyZWlwYXZsODc0MTk%3D#c_chck.2947747854; L=CC5yYWVzVUhLVXgNYH59cA5PVXRARWgKOxUUNE9ZISY0AzY+Pw4EVzwXHgghNxIjJHEFbn8I.1684513266.15347.334676.7f8fb810537b868a7209eb0cb2678386; yandex_login=corp-ipbaryshevandreipavl87419; ilahu=1684542066; mda2_beacon=1684513266271; lah=2:1747585266.10022872.cyT6aDnIXJt7LxAD.xcG2RPfBFlY59-yHIaAqx1xIPt5NBaAQknht5qQBoddXZ_gz4C3_hLWVX3khz_qdc9mHrYcHK_cSFEWYD_rXsrt55vuNSlxikHZYenC6LdBn3sjiz3Bss_S3Qb86Y7jGCKRI8tpZKEhzsi_DXHR-605U1Jm2BNgYDd3JLDEqXwdG0WORS5CuIblhY0cQb53UQ2JuNTj_ePfxRbqn9DEqaaU8URpRner22wXwTPHyPofa-PfuESkdGmaSShb3DMQN1wzeYtZyKuMsQwYw1Juo7UjDSzTXZrtkOzuPwrs5oFCGOMkz2FdH8wHQpgnHv3aD8xVgIZdiGAY-dl4Xiv99HSAOVr6MKyJamxian45HMYPoS9RSrXpezp7P7Geg3ad0Sz3J9HZfVNUWk0xLdFX4KVoyCIWbXmbCEOw_6KuZ70lM9sMwzms4NzvnbU8Cka2DWMWEj26eFzXU4bIipri_niCQOzLp1NNJEgMv_JCAaOfrRie55646jNIogWtLc4wGIaYLfB7LO8cJ1QBFhfMtmsaL_euCf8KGmdplIA.aV2R_2Uvg_8onPMMoDeaDA"
+					},
+					{
+						"key": "Origin",
+						"value": "https://passport.yandex.ru"
+					},
+					{
+						"key": "Referer",
+						"value": "https://passport.yandex.ru/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.4.603 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-prefers-color-scheme",
+						"value": "dark"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"110\", \"Not A(Brand\";v=\"24\", \"YaBrowser\";v=\"23\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "csrf_token=826865bed117358f08dad3627004f39506e97771%3A1684513266603&login=apbar005&process_uuid=2ac95d93-d1e2-403f-8d75-9848dbb8201e&retpath=https%3A%2F%2Fsso.passport.yandex.ru%2Fprepare%3Fuuid%3D2ac42e10-1802-4f3d-8584-b39afd0c9935%26goal%3Dhttps%253A%252F%252Fya.ru%252F%26finish%3Dhttps%253A%252F%252Fsso.passport.yandex.ru%252Fpush%253Fretpath%253Dhttps%25253A%25252F%25252Fya.ru%25252F%2526uuid%253D4ba3b6e5-2fa9-4bd5-990e-4a5c02c071bc%2526ncrnd%253D61064",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://passport.yandex.ru/registration-validations/auth/multi_step/start",
+					"protocol": "https",
+					"host": [
+						"passport",
+						"yandex",
+						"ru"
+					],
+					"path": [
+						"registration-validations",
+						"auth",
+						"multi_step",
+						"start"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Данные в ЛК",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Cookie",
+						"value": "_ym_uid=1659030048192709895; is_gdpr=0; is_gdpr_b=CLryEBD8gAEoAg==; gdpr=0; mda=0; my=YwA=; amcuid=8921281611659030730; font_loaded=YSv1; id-stories%3A1703148184=documents-stories.1.1710884060189; uniqueuid=801723851679348187; i=80GRi7Sc7gzTdskt5H67GNw/+9fESsTBxxLQ8T10Mu+r2SRM/Tb+r8GTm5dnTi9qJLAii/7ODFdmeTiZTwbJDF3/8vk=; yandexuid=9840739331659029968; yuidss=9840739331659029968; ymex=1995541837.yrts.1680181837#1983346849.yrtsi.1667986849; sae=0:4106F3C0-5C36-4650-B042-700908D6E212:p:23.3.4.603:w:d:RU:20220213; _ym_isad=2; _ym_d=1684591449; _yasc=R3b5Uezv9cw64Xj0tGj4rFm66OWDw8UDiBUple2jTybEXVCnQG1cj0Z9j17Ca+IUjm/ffrjgMHfEgLUKjJN4kiPLBV8=; cycada=5angLmNemzLdeSdHrn67jP/soogrVcD6wREls1vfys4=; id-stories%3A1708409717=documents-stories.1.1716128693080; Session_id=3:1684593900.5.3.1666975324998:xjyKLg:86.1.2:1|247129982.13492526.2.2:16515180.3:1683490504|343275130.14917154.2.2:14917154.3:1681892478|1660167920.16141192.2.2:16141192.3:1683116516|1708409717.17609160.2.2:17609160.3:1684584484|1703148184.17610911.2.2:17610911.3:1684586235|3:10270131.8021.mxJKfaNRrtzacs9np5mMFgHH-Cc; sessar=1.99.CiBrFfSndbFMuj-e8_uZDO0umSI9KrbM4rpcPa6DOI08Hw.XqNYyBFASfHxXcT-1gPZBDMWJK19T-39jhuc-SxEmhM; sessionid2=3:1684593900.5.3.1666975324998:xjyKLg:86.1.2:1|247129982.13492526.2.2:16515180.3:1683490504|343275130.14917154.2.2:14917154.3:1681892478|1660167920.16141192.2.2:16141192.3:1683116516|1708409717.17609160.2.2:17609160.3:1684584484|1703148184.17610911.2.2:17610911.3:1684586235|3:10270131.8021.fakesign0000000000000000000; L=UgRTCEkGdmlBVHZFemJlSVBhXANvWAICJwkXVTpiegM=.1684593900.15348.323188.a0c17c5e9d436294cef2451c3773fd8b; yandex_login=apbar005; ys=udn.cDphcGJhcjAwNQ%3D%3D#c_chck.3812072230; bh=EjwiQ2hyb21pdW0iO3Y9IjExMCIsICJOb3QgQShCcmFuZCI7dj0iMjQiLCAiWWFCcm93c2VyIjt2PSIyMyIaBSJ4ODYiIgwiMjMuMy40LjYwMyIqAj8wOgkiV2luZG93cyJCCCIxMC4wLjAiSgQiNjQiUlQiQ2hyb21pdW0iO3Y9IjExMC4wLjU0ODEuMjA4IiwiTm90IEEoQnJhbmQiO3Y9IjI0LjAuMC4wIiwiWWFCcm93c2VyIjt2PSIyMy4zLjQuNjAzIiI=; yp=1684647756.uc.ru#1684647756.duc.ru#1995825834.skin.d#1716122356.cld.2270452#1716122356.brd.0401003747#1995825909.multib.1#1700350655.szm.1:1366x768:1366x652#1687261137.csc.1#1999953900.udn.cDphcGJhcjAwNQ%3D%3D#1999947104.pcs.1#1685264696.hdrc.1#1998853005.hks.0#1684601404.gpauto.55_221539:38_045082:100000:3:1684594204#1684850418.mcv.0#1684850418.mcl.17v619s"
+					},
+					{
+						"key": "Origin",
+						"value": "https://id.yandex.ru"
+					},
+					{
+						"key": "Referer",
+						"value": "https://id.yandex.ru/personal?dialog=personal-data"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.4.603 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "sec-ch-prefers-color-scheme",
+						"value": "dark"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"110\", \"Not A(Brand\";v=\"24\", \"YaBrowser\";v=\"23\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "x-csrf-token",
+						"value": "8ca3c3135f6917360b38f1472644f2f52fcf2b11:1684593938740"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"operationName\": \"UpdatePersonalInfo\",\r\n        \"variables\": {\r\n            \"input\": {\r\n                \"firstname\": \"Ле\",\r\n                \"lastname\": \"Ва\",\r\n                \"birthday\": \"1991-12-12\",\r\n                \"gender\": \"UNKNOWN\",\r\n                \"city\": \"\",\r\n                \"timezone\": \"Europe/Moscow\",\r\n                \"displayName\": \"Л В\",\r\n                \"deleteAvatar\": false\r\n            }\r\n        },\r\n        \"query\": \"mutation UpdatePersonalInfo($input: UpdatePersonalInfoInput!) {\\n  viewerUpdatePersonalInfo(input: $input) {\\n    ... on UpdatePersonalInfoPayload {\\n      query {\\n        viewer {\\n          firstName\\n          lastName\\n          displayName\\n          city\\n          birthdate\\n          __typename\\n        }\\n        __typename\\n      }\\n      __typename\\n    }\\n    ... on UpdatePersonalInfoProblem {\\n      reason\\n      __typename\\n    }\\n    __typename\\n  }\\n}\"\r\n    }\r\n]"
+				},
+				"url": {
+					"raw": "https://id.yandex.ru/security/graphql",
+					"protocol": "https",
+					"host": [
+						"id",
+						"yandex",
+						"ru"
+					],
+					"path": [
+						"security",
+						"graphql"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Создать Питомца",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Cookie",
+						"value": "_ym_uid=1659030048192709895; is_gdpr=0; is_gdpr_b=CLryEBD8gAEoAg==; gdpr=0; mda=0; my=YwA=; amcuid=8921281611659030730; font_loaded=YSv1; id-stories%3A1703148184=documents-stories.1.1710884060189; uniqueuid=801723851679348187; i=80GRi7Sc7gzTdskt5H67GNw/+9fESsTBxxLQ8T10Mu+r2SRM/Tb+r8GTm5dnTi9qJLAii/7ODFdmeTiZTwbJDF3/8vk=; yandexuid=9840739331659029968; yuidss=9840739331659029968; ymex=1995541837.yrts.1680181837#1983346849.yrtsi.1667986849; sae=0:4106F3C0-5C36-4650-B042-700908D6E212:p:23.3.4.603:w:d:RU:20220213; _ym_isad=2; Session_id=3:1684590380.5.3.1666975324998:xjyKLg:86.1.2:1|247129982.13492526.2.2:16515180.3:1683490504|343275130.14917154.2.2:14917154.3:1681892478|1660167920.16141192.2.2:16141192.3:1683116516|1708409717.17609160.2.2:17609160.3:1684584484|1703148184.17610911.2.2:17610911.3:1684586235|3:10270129.28279.WB_8BnOHBPfT6NptFTsL15DijFc; sessar=1.99.CiDyMGV_zzFZkNebGCltXkmazoQ-a7LOZcotLoinrR3TsA.ZRZI_2m6KjFzcNLWGb2Z5UdZy93amv9LYMIjYPAQx5s; sessionid2=3:1684590380.5.3.1666975324998:xjyKLg:86.1.2:1|247129982.13492526.2.2:16515180.3:1683490504|343275130.14917154.2.2:14917154.3:1681892478|1660167920.16141192.2.2:16141192.3:1683116516|1708409717.17609160.2.2:17609160.3:1684584484|1703148184.17610911.2.2:17610911.3:1684586235|3:10270129.28279.fakesign0000000000000000000; L=UgRTCEkGdmlBVHZFemJiQVZrUwFuXwEEJwkXVTpiegM=.1684590380.15348.376874.c8e5c870b6d0cce42082be3d5ea67d2f; yandex_login=apbar005; ys=udn.cDphcGJhcjAwNQ%3D%3D#c_chck.2061963457; _ym_d=1684591449; _yasc=R3b5Uezv9cw64Xj0tGj4rFm66OWDw8UDiBUple2jTybEXVCnQG1cj0Z9j17Ca+IUjm/ffrjgMHfEgLUKjJN4kiPLBV8=; yp=1684647756.uc.ru#1684647756.duc.ru#1995825834.skin.d#1716122356.cld.2270452#1716122356.brd.0401003747#1995825909.multib.1#1700350655.szm.1:1366x768:1366x652#1687261137.csc.1#1999950380.udn.cDphcGJhcjAwNQ%3D%3D#1999947104.pcs.1#1685264696.hdrc.1#1998853005.hks.0#1684599604.gpauto.55_221539:38_045082:100000:3:1684592404#1684850418.mcv.0#1684850418.mcl.17v619s; cycada=5angLmNemzLdeSdHrn67jP/soogrVcD6wREls1vfys4=; bh=EjwiQ2hyb21pdW0iO3Y9IjExMCIsICJOb3QgQShCcmFuZCI7dj0iMjQiLCAiWWFCcm93c2VyIjt2PSIyMyIaBSJ4ODYiIgwiMjMuMy40LjYwMyIqAj8wOgkiV2luZG93cyJCCCIxMC4wLjAiSgQiNjQiUlQiQ2hyb21pdW0iO3Y9IjExMC4wLjU0ODEuMjA4IiwiTm90IEEoQnJhbmQiO3Y9IjI0LjAuMC4wIiwiWWFCcm93c2VyIjt2PSIyMy4zLjQuNjAzIiI=; id-stories%3A1708409717=documents-stories.1.1716128693080"
+					},
+					{
+						"key": "Origin",
+						"value": "https://id.yandex.ru"
+					},
+					{
+						"key": "Referer",
+						"value": "https://id.yandex.ru/personal"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.4.603 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "sec-ch-prefers-color-scheme",
+						"value": "dark"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"110\", \"Not A(Brand\";v=\"24\", \"YaBrowser\";v=\"23\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "x-csrf-token",
+						"value": "51e18be997bb867bdca184b60a0182eb98e539ca:1684592540727"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"operationName\": \"CreateOrUpdatePet\",\r\n        \"variables\": {\r\n            \"input\": {\r\n                \"id\": null,\r\n                \"avatarUrl\": null,\r\n                \"type\": \"DOG\",\r\n                \"customType\": \"\",\r\n                \"name\": \"Собака Кусака\",\r\n                \"gender\": \"MALE\",\r\n                \"ageType\": \"adult\",\r\n                \"birthDate\": null,\r\n                \"breed\": \"Средняя\",\r\n                \"isBreedUnknown\": false,\r\n                \"bodyType\": \"medium\",\r\n                \"activityType\": \"2-hour\",\r\n                \"feedTypes\": [\r\n                    \"dry\"\r\n                ],\r\n                \"isCastrated\": false,\r\n                \"features\": []\r\n            }\r\n        },\r\n        \"query\": \"mutation CreateOrUpdatePet($input: CreateOrUpdatePetInput!) {\\n  response: createOrUpdatePet(input: $input) {\\n    __typename\\n    ... on CreateOrUpdatePetProblem {\\n      reason\\n      __typename\\n    }\\n    ... on CreateOrUpdatePetPayload {\\n      record {\\n        ...PetFields\\n        __typename\\n      }\\n      __typename\\n    }\\n  }\\n}\\n\\nfragment PetFields on Pet {\\n  id\\n  activityType\\n  ageType\\n  avatarUrl\\n  birthDate {\\n    date\\n    month\\n    year\\n    __typename\\n  }\\n  bodyType\\n  breed\\n  features\\n  feedTypes\\n  gender\\n  isCastrated\\n  isBreedUnknown\\n  name\\n  type\\n  customType\\n  __typename\\n}\"\r\n    }\r\n]"
+				},
+				"url": {
+					"raw": "https://id.yandex.ru/security/graphql",
+					"protocol": "https",
+					"host": [
+						"id",
+						"yandex",
+						"ru"
+					],
+					"path": [
+						"security",
+						"graphql"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Удалить Питомца",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Cookie",
+						"value": "_ym_uid=1659030048192709895; is_gdpr=0; is_gdpr_b=CLryEBD8gAEoAg==; gdpr=0; mda=0; my=YwA=; amcuid=8921281611659030730; font_loaded=YSv1; id-stories%3A1703148184=documents-stories.1.1710884060189; uniqueuid=801723851679348187; i=80GRi7Sc7gzTdskt5H67GNw/+9fESsTBxxLQ8T10Mu+r2SRM/Tb+r8GTm5dnTi9qJLAii/7ODFdmeTiZTwbJDF3/8vk=; yandexuid=9840739331659029968; yuidss=9840739331659029968; ymex=1995541837.yrts.1680181837#1983346849.yrtsi.1667986849; sae=0:4106F3C0-5C36-4650-B042-700908D6E212:p:23.3.4.603:w:d:RU:20220213; _ym_isad=2; Session_id=3:1684590380.5.3.1666975324998:xjyKLg:86.1.2:1|247129982.13492526.2.2:16515180.3:1683490504|343275130.14917154.2.2:14917154.3:1681892478|1660167920.16141192.2.2:16141192.3:1683116516|1708409717.17609160.2.2:17609160.3:1684584484|1703148184.17610911.2.2:17610911.3:1684586235|3:10270129.28279.WB_8BnOHBPfT6NptFTsL15DijFc; sessar=1.99.CiDyMGV_zzFZkNebGCltXkmazoQ-a7LOZcotLoinrR3TsA.ZRZI_2m6KjFzcNLWGb2Z5UdZy93amv9LYMIjYPAQx5s; sessionid2=3:1684590380.5.3.1666975324998:xjyKLg:86.1.2:1|247129982.13492526.2.2:16515180.3:1683490504|343275130.14917154.2.2:14917154.3:1681892478|1660167920.16141192.2.2:16141192.3:1683116516|1708409717.17609160.2.2:17609160.3:1684584484|1703148184.17610911.2.2:17610911.3:1684586235|3:10270129.28279.fakesign0000000000000000000; L=UgRTCEkGdmlBVHZFemJiQVZrUwFuXwEEJwkXVTpiegM=.1684590380.15348.376874.c8e5c870b6d0cce42082be3d5ea67d2f; yandex_login=apbar005; ys=udn.cDphcGJhcjAwNQ%3D%3D#c_chck.2061963457; _ym_d=1684591449; _yasc=R3b5Uezv9cw64Xj0tGj4rFm66OWDw8UDiBUple2jTybEXVCnQG1cj0Z9j17Ca+IUjm/ffrjgMHfEgLUKjJN4kiPLBV8=; cycada=5angLmNemzLdeSdHrn67jP/soogrVcD6wREls1vfys4=; id-stories%3A1708409717=documents-stories.1.1716128693080; yp=1684647756.uc.ru#1684647756.duc.ru#1995825834.skin.d#1716122356.cld.2270452#1716122356.brd.0401003747#1995825909.multib.1#1700350655.szm.1:1366x768:1366x652#1687261137.csc.1#1999950380.udn.cDphcGJhcjAwNQ%3D%3D#1999947104.pcs.1#1685264696.hdrc.1#1998853005.hks.0#1684600204.gpauto.55_221539:38_045082:100000:3:1684593004#1684850418.mcv.0#1684850418.mcl.17v619s; bh=EjwiQ2hyb21pdW0iO3Y9IjExMCIsICJOb3QgQShCcmFuZCI7dj0iMjQiLCAiWWFCcm93c2VyIjt2PSIyMyIaBSJ4ODYiIgwiMjMuMy40LjYwMyIqAj8wOgkiV2luZG93cyJCCCIxMC4wLjAiSgQiNjQiUlQiQ2hyb21pdW0iO3Y9IjExMC4wLjU0ODEuMjA4IiwiTm90IEEoQnJhbmQiO3Y9IjI0LjAuMC4wIiwiWWFCcm93c2VyIjt2PSIyMy4zLjQuNjAzIiI="
+					},
+					{
+						"key": "Origin",
+						"value": "https://id.yandex.ru"
+					},
+					{
+						"key": "Referer",
+						"value": "https://id.yandex.ru/personal"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.4.603 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "sec-ch-prefers-color-scheme",
+						"value": "dark"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"110\", \"Not A(Brand\";v=\"24\", \"YaBrowser\";v=\"23\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "x-csrf-token",
+						"value": "72404edb684aa988324cd44568217c25bf34e77f:1684593381744"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\"operationName\":\"DeletePet\",\"variables\":{\"input\":{\"id\":\"80826db5-0315-4eca-b8b7-eff3f56fdc0e\"}},\"query\":\"mutation DeletePet($input: DeletePetInput!) {\\n  response: deletePet(input: $input) {\\n    __typename\\n    ... on DeletePetProblem {\\n      reason\\n      __typename\\n    }\\n    ... on DeletePetPayload {\\n      recordId\\n      __typename\\n    }\\n  }\\n}\"}]"
+				},
+				"url": {
+					"raw": "https://id.yandex.ru/security/graphql",
+					"protocol": "https",
+					"host": [
+						"id",
+						"yandex",
+						"ru"
+					],
+					"path": [
+						"security",
+						"graphql"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Добавить ИНН",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Cookie",
+						"value": "_ym_uid=1659030048192709895; is_gdpr=0; is_gdpr_b=CLryEBD8gAEoAg==; gdpr=0; mda=0; my=YwA=; amcuid=8921281611659030730; font_loaded=YSv1; id-stories%3A1703148184=documents-stories.1.1710884060189; uniqueuid=801723851679348187; i=80GRi7Sc7gzTdskt5H67GNw/+9fESsTBxxLQ8T10Mu+r2SRM/Tb+r8GTm5dnTi9qJLAii/7ODFdmeTiZTwbJDF3/8vk=; yandexuid=9840739331659029968; yuidss=9840739331659029968; ymex=1995541837.yrts.1680181837#1983346849.yrtsi.1667986849; sae=0:4106F3C0-5C36-4650-B042-700908D6E212:p:23.3.4.603:w:d:RU:20220213; _ym_isad=2; _ym_d=1684591449; cycada=5angLmNemzLdeSdHrn67jP/soogrVcD6wREls1vfys4=; id-stories%3A1708409717=documents-stories.1.1716128693080; Session_id=3:1684593900.5.3.1666975324998:xjyKLg:86.1.2:1|247129982.13492526.2.2:16515180.3:1683490504|343275130.14917154.2.2:14917154.3:1681892478|1660167920.16141192.2.2:16141192.3:1683116516|1708409717.17609160.2.2:17609160.3:1684584484|1703148184.17610911.2.2:17610911.3:1684586235|3:10270131.8021.mxJKfaNRrtzacs9np5mMFgHH-Cc; sessar=1.99.CiBrFfSndbFMuj-e8_uZDO0umSI9KrbM4rpcPa6DOI08Hw.XqNYyBFASfHxXcT-1gPZBDMWJK19T-39jhuc-SxEmhM; sessionid2=3:1684593900.5.3.1666975324998:xjyKLg:86.1.2:1|247129982.13492526.2.2:16515180.3:1683490504|343275130.14917154.2.2:14917154.3:1681892478|1660167920.16141192.2.2:16141192.3:1683116516|1708409717.17609160.2.2:17609160.3:1684584484|1703148184.17610911.2.2:17610911.3:1684586235|3:10270131.8021.fakesign0000000000000000000; L=UgRTCEkGdmlBVHZFemJlSVBhXANvWAICJwkXVTpiegM=.1684593900.15348.323188.a0c17c5e9d436294cef2451c3773fd8b; yandex_login=apbar005; ys=udn.cDphcGJhcjAwNQ%3D%3D#c_chck.3812072230; yp=1684647756.uc.ru#1684647756.duc.ru#1995825834.skin.d#1716122356.cld.2270452#1716122356.brd.0401003747#1995825909.multib.1#1700350655.szm.1:1366x768:1366x652#1687261137.csc.1#1999953900.udn.cDphcGJhcjAwNQ%3D%3D#1999947104.pcs.1#1685264696.hdrc.1#1998853005.hks.0#1684602004.gpauto.55_221539:38_045082:100000:3:1684594804#1684850418.mcv.0#1684850418.mcl.17v619s; _yasc=2xwKSHA46JFNKERXVlJ/0oALBYK+aSxKjEhQ8g1KAOcie2uuGttEiML7PNPCUxZbAx1KkKebFBvwa9JeU2LTrw8ogDQ=; bh=EjwiQ2hyb21pdW0iO3Y9IjExMCIsICJOb3QgQShCcmFuZCI7dj0iMjQiLCAiWWFCcm93c2VyIjt2PSIyMyIaBSJ4ODYiIgwiMjMuMy40LjYwMyIqAj8wOgkiV2luZG93cyJCCCIxMC4wLjAiSgQiNjQiUlQiQ2hyb21pdW0iO3Y9IjExMC4wLjU0ODEuMjA4IiwiTm90IEEoQnJhbmQiO3Y9IjI0LjAuMC4wIiwiWWFCcm93c2VyIjt2PSIyMy4zLjQuNjAzIiI="
+					},
+					{
+						"key": "Origin",
+						"value": "https://id.yandex.ru"
+					},
+					{
+						"key": "Referer",
+						"value": "https://id.yandex.ru/personal/documents?dialog=inn-form"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.4.603 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "sec-ch-prefers-color-scheme",
+						"value": "dark"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"110\", \"Not A(Brand\";v=\"24\", \"YaBrowser\";v=\"23\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "x-csrf-token",
+						"value": "3faa350ab718623528bbefa14cdb6685aa94e8c7:1684594825645"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"operationName\": \"AddInn\",\r\n        \"variables\": {\r\n            \"input\": {\r\n                \"type\": \"INN\",\r\n                \"innInput\": {\r\n                    \"images\": [],\r\n                    \"docNumber\": \"212121212121\",\r\n                    \"firstName\": \"ваыва\",\r\n                    \"lastName\": \"авыавыаыва\",\r\n                    \"middleName\": \"аываываыв\",\r\n                    \"birthDate\": \"1991-12-12\",\r\n                    \"birthPlace\": \"Москва\",\r\n                    \"gender\": \"MALE\",\r\n                    \"issuedBy\": \"авыавава\",\r\n                    \"issueDate\": \"2015-12-12\"\r\n                }\r\n            }\r\n        },\r\n        \"query\": \"mutation AddInn($input: AddDocumentInput!) {\\n  addDocument(input: $input) {\\n    ... on AddDocumentPayload {\\n      query {\\n        documents {\\n          id\\n          type\\n          section\\n          docNumber\\n          firstName\\n          lastName\\n          __typename\\n        }\\n        __typename\\n      }\\n      __typename\\n    }\\n    ... on AddDocumentProblem {\\n      reason\\n      __typename\\n    }\\n    __typename\\n  }\\n}\"\r\n    }\r\n]"
+				},
+				"url": {
+					"raw": "https://id.yandex.ru/security/graphql",
+					"protocol": "https",
+					"host": [
+						"id",
+						"yandex",
+						"ru"
+					],
+					"path": [
+						"security",
+						"graphql"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

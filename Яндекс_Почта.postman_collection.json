@@ -1,0 +1,726 @@
+{
+	"info": {
+		"_postman_id": "84739434-3b5d-4bb1-a987-06e07403871a",
+		"name": "Яндекс_Почта",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24132008"
+	},
+	"item": [
+		{
+			"name": "Написать и отправить письмо",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "Cookie",
+						"value": "_ym_uid=1659030048192709895; is_gdpr=0; is_gdpr_b=CLryEBD8gAEoAg==; gdpr=0; mda=0; my=YwA=; amcuid=8921281611659030730; font_loaded=YSv1; stngs=stngs.1%3Acolorful%3A%3Atrue%3Atrue; lite-reset=247129982%7C1703148184%7C1703638641%7C1708401588%7C1660167920; i=80GRi7Sc7gzTdskt5H67GNw/+9fESsTBxxLQ8T10Mu+r2SRM/Tb+r8GTm5dnTi9qJLAii/7ODFdmeTiZTwbJDF3/8vk=; yandexuid=9840739331659029968; yuidss=9840739331659029968; ymex=1995541837.yrts.1680181837#1983346849.yrtsi.1667986849; ymai_iale=0; sae=0:4106F3C0-5C36-4650-B042-700908D6E212:p:23.3.4.603:w:d:RU:20220213; yabrowser-mail-notif=1; _ym_isad=2; _ym_d=1684582790; _ym_visorc=b; _yasc=2729XswdsElmsUAQxad38pu2/cQqOpC3dEg0I6bNBH+9WI4stOanvtUiX1VkTVW1gNdR8p3pFUWpqzS14p/D6fiFs58=; cycada=ZbbfZnwqLvT6Wg77z9Xsqf/soogrVcD6wREls1vfys4=; Session_id=3:1684584484.5.3.1666975324998:xjyKLg:86.1.2:1|247129982.13492526.2.2:16515180.3:1683490504|343275130.14917154.2.2:14917154.3:1681892478|1660167920.16141192.2.2:16141192.3:1683116516|1708409717.17609160.2.2:17609160.3:1684584484|3:10270125.659131.O4I_-V2TAmURwD0cQt1fDPXGSTI; sessar=1.99.CiC8PRMf9PcUTeHozu7Cuvc07cvcQu-mtLWSJqDUoZpEXw.p4-6K1TBUuS9SD0JI9Yl7I9X5j5WfQyiEuC1gXgnicU; sessionid2=3:1684584484.5.3.1666975324998:xjyKLg:86.1.2:1|247129982.13492526.2.2:16515180.3:1683490504|343275130.14917154.2.2:14917154.3:1681892478|1660167920.16141192.2.2:16141192.3:1683116516|1708409717.17609160.2.2:17609160.3:1684584484|3:10270125.659131.fakesign0000000000000000000; L=UgRTCEkGdmlBVHZFemJiQ1FnVgZiUwgCJwkXVTpiegM=.1684584484.15348.345631.e5b4ab454748380077f2b707d5f40ee8; yandex_login=apbar005; yp=1684647756.uc.ru#1684647756.duc.ru#1995825834.skin.d#1716120605.cld.2270452#1716120605.brd.0401003747#1995825909.multib.1#1700350655.szm.1:1366x768:1366x150#1687261137.csc.1#1999944484.udn.cDphcGJhcjAwNQ%3D%3D#1999942207.pcs.1#1685264696.hdrc.1#1998853005.hks.0#1684591804.gpauto.55_221539:38_045082:100000:3:1684584604#1684850418.mcv.1#1684850418.mcl.mx6hqz; ys=udn.cDphcGJhcjAwNQ%3D%3D#c_chck.3226408538; bh=EjwiQ2hyb21pdW0iO3Y9IjExMCIsICJOb3QgQShCcmFuZCI7dj0iMjQiLCAiWWFCcm93c2VyIjt2PSIyMyIaBSJ4ODYiIgwiMjMuMy40LjYwMyIqAj8wOgkiV2luZG93cyJCCCIxMC4wLjAiSgQiNjQiUlQiQ2hyb21pdW0iO3Y9IjExMC4wLjU0ODEuMjA4IiwiTm90IEEoQnJhbmQiO3Y9IjI0LjAuMC4wIiwiWWFCcm93c2VyIjt2PSIyMy4zLjQuNjAzIiI="
+					},
+					{
+						"key": "Origin",
+						"value": "https://mail.yandex.ru"
+					},
+					{
+						"key": "Referer",
+						"value": "https://mail.yandex.ru/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "no-cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.4.603 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"110\", \"Not A(Brand\";v=\"24\", \"YaBrowser\";v=\"23\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "bcc",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "captcha_entered",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "captcha_key",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "cc",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "charset",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "confirm_limit",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "current_folder",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "doit",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "fid",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "from_mailbox",
+							"value": "apbar005@yandex.ru",
+							"type": "text"
+						},
+						{
+							"key": "from_name",
+							"value": "Л В",
+							"type": "text"
+						},
+						{
+							"key": "get_abook",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "html",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "idcs",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "ign_overwrite",
+							"value": "no",
+							"type": "text"
+						},
+						{
+							"key": "initial_cc",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "initial_to",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "inreplyto",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "mark_as",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "disk_att",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "nosave",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "nosend",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "notify_on_send",
+							"value": "no",
+							"type": "text"
+						},
+						{
+							"key": "overwrite",
+							"value": "182677259885215747",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "references",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "remind_period",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "retpath",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "returl",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "saveDraft",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "save_symbol",
+							"value": "draft",
+							"type": "text"
+						},
+						{
+							"key": "send",
+							"value": "Тут будет текст письма",
+							"type": "text"
+						},
+						{
+							"key": "send_time",
+							"value": "10000",
+							"type": "text"
+						},
+						{
+							"key": "store_fid",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "store_name",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "strict_charset",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "style",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "subj",
+							"value": "привет тестик ++",
+							"type": "text"
+						},
+						{
+							"key": "to",
+							"value": "<apbar001@yandex.ru>",
+							"type": "text"
+						},
+						{
+							"key": "ttype",
+							"value": "html",
+							"type": "text"
+						},
+						{
+							"key": "withUpdatedUndoAndDelayedErrorHandling",
+							"value": "yes",
+							"type": "text"
+						},
+						{
+							"key": "_connection_id",
+							"value": "LIZA-93766095-1684584552761",
+							"type": "text"
+						},
+						{
+							"key": "_ckey",
+							"value": "qtY5GuvK3cBEklOPkrFM7SS+Mt0=!lhxdl6jl!tZK8G6HesA377CkmJKR7nOe7HAc=!3",
+							"type": "text"
+						},
+						{
+							"key": "_uid",
+							"value": "1708409717",
+							"type": "text"
+						},
+						{
+							"key": "_eexp",
+							"value": "539434,0,-1;500420,0,-1;613430,0,-1;674943,0,-1;722413,0,-1;605931,0,-1;605934,0,-1;605938,0,-1;610121,0,-1;731103,0,8;715756,0,68;769422,0,85;261663,0,39;134385,0,69;118737,0,70;711552,0,6;774452,0,21;707211,0,17",
+							"type": "text"
+						},
+						{
+							"key": "message_id",
+							"value": "<41231684584568@mail.yandex.ru>",
+							"type": "text"
+						},
+						{
+							"key": "current_time",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "captcha_token",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "parts_json",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "relative",
+							"value": "true",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://mail.yandex.ru/web-api/do-send/liza1?_send=true",
+					"protocol": "https",
+					"host": [
+						"mail",
+						"yandex",
+						"ru"
+					],
+					"path": [
+						"web-api",
+						"do-send",
+						"liza1"
+					],
+					"query": [
+						{
+							"key": "_send",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Отправить письмо в Удаленные",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json, text/javascript, */*; q=0.01"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json; encoding=utf-8"
+					},
+					{
+						"key": "Cookie",
+						"value": "_ym_uid=1659030048192709895; is_gdpr=0; is_gdpr_b=CLryEBD8gAEoAg==; gdpr=0; mda=0; my=YwA=; amcuid=8921281611659030730; font_loaded=YSv1; stngs=stngs.1%3Acolorful%3A%3Atrue%3Atrue; lite-reset=247129982%7C1703148184%7C1703638641%7C1708401588%7C1660167920; i=80GRi7Sc7gzTdskt5H67GNw/+9fESsTBxxLQ8T10Mu+r2SRM/Tb+r8GTm5dnTi9qJLAii/7ODFdmeTiZTwbJDF3/8vk=; yandexuid=9840739331659029968; yuidss=9840739331659029968; ymex=1995541837.yrts.1680181837#1983346849.yrtsi.1667986849; ymai_iale=0; sae=0:4106F3C0-5C36-4650-B042-700908D6E212:p:23.3.4.603:w:d:RU:20220213; yabrowser-mail-notif=1; _ym_isad=2; _ym_d=1684582790; _ym_visorc=b; _yasc=2729XswdsElmsUAQxad38pu2/cQqOpC3dEg0I6bNBH+9WI4stOanvtUiX1VkTVW1gNdR8p3pFUWpqzS14p/D6fiFs58=; cycada=i9HffFs0lBF4R+MdaNtiOv/soogrVcD6wREls1vfys4=; Session_id=3:1684586777.5.3.1666975324998:xjyKLg:86.1.2:1|247129982.13492526.2.2:16515180.3:1683490504|343275130.14917154.2.2:14917154.3:1681892478|1660167920.16141192.2.2:16141192.3:1683116516|1708409717.17609160.2.2:17609160.3:1684584484|1703148184.17610911.2.2:17610911.3:1684586235|3:10270127.114314.V_zxj2-Tm_pUaSzL7LhYSzLMW3s; sessar=1.99.CiBrSVHXOwzZBIZyC9N5c4X78PemAeOrf5bsP1yYyGouJw.2VxeoMtY6vfD1H_5zxqxxwlVrv0sP9mNOub-nuQ1yyE; sessionid2=3:1684586777.5.3.1666975324998:xjyKLg:86.1.2:1|247129982.13492526.2.2:16515180.3:1683490504|343275130.14917154.2.2:14917154.3:1681892478|1660167920.16141192.2.2:16141192.3:1683116516|1708409717.17609160.2.2:17609160.3:1684584484|1703148184.17610911.2.2:17610911.3:1684586235|3:10270127.114314.fakesign0000000000000000000; yp=1684647756.uc.ru#1684647756.duc.ru#1995825834.skin.d#1716122356.cld.2270452#1716122356.brd.0401003747#1995825909.multib.1#1700350655.szm.1:1366x768:1366x150#1687261137.csc.1#1999946777.udn.cDphcGJhcjAwNQ%3D%3D#1999942207.pcs.1#1685264696.hdrc.1#1998853005.hks.0#1684593604.gpauto.55_221539:38_045082:100000:3:1684586404#1684850418.mcv.1#1684850418.mcl.mx6hqz; L=UgRTCEkGdmlBVHZFemJgQFxgVQRuXwQCJwkXVTpiegM=.1684586777.15348.351497.111b1aefd38ed510cb65335dacd1f321; yandex_login=apbar005; ys=udn.cDphcGJhcjAwNQ%3D%3D#c_chck.36891167; app_badge_up_to_date_1708409717=1; bh=EjwiQ2hyb21pdW0iO3Y9IjExMCIsICJOb3QgQShCcmFuZCI7dj0iMjQiLCAiWWFCcm93c2VyIjt2PSIyMyIaBSJ4ODYiIgwiMjMuMy40LjYwMyIqAj8wOgkiV2luZG93cyJCCCIxMC4wLjAiSgQiNjQiUlQiQ2hyb21pdW0iO3Y9IjExMC4wLjU0ODEuMjA4IiwiTm90IEEoQnJhbmQiO3Y9IjI0LjAuMC4wIiwiWWFCcm93c2VyIjt2PSIyMy4zLjQuNjAzIiI="
+					},
+					{
+						"key": "Origin",
+						"value": "https://mail.yandex.ru"
+					},
+					{
+						"key": "Referer",
+						"value": "https://mail.yandex.ru/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.4.603 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"110\", \"Not A(Brand\";v=\"24\", \"YaBrowser\";v=\"23\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"models\": [\r\n        {\r\n            \"name\": \"do-messages\",\r\n            \"params\": {\r\n                \"tids\": [\r\n                    \"t182677259885215745\",\r\n                    \"t182677259885215746\"\r\n                ],\r\n                \"movefile\": \"3\",\r\n                \"action\": \"delete\",\r\n                \"with_sent\": \"0\"\r\n            },\r\n            \"meta\": {\r\n                \"requestAttempt\": 1\r\n            }\r\n        },\r\n        {\r\n            \"name\": \"folders\",\r\n            \"params\": {},\r\n            \"meta\": {\r\n                \"requestAttempt\": 1\r\n            }\r\n        },\r\n        {\r\n            \"name\": \"labels\",\r\n            \"params\": {},\r\n            \"meta\": {\r\n                \"requestAttempt\": 1\r\n            }\r\n        },\r\n        {\r\n            \"name\": \"tabs\",\r\n            \"params\": {},\r\n            \"meta\": {\r\n                \"requestAttempt\": 1\r\n            }\r\n        }\r\n    ],\r\n    \"_ckey\": \"DldmRwHT6VWIiMd3++OVlHoSggw=!lhxewvv2!OMH+Rdgsms6LPY3+xI2KXhbgCfY=!3\",\r\n    \"_uid\": \"1708409717\",\r\n    \"_locale\": \"ru\",\r\n    \"_timestamp\": 1684586913418,\r\n    \"_product\": \"RUS\",\r\n    \"_connection_id\": \"LIZA-05880798-1684586778391\",\r\n    \"_exp\": \"539434,0,-1;500420,0,-1;613430,0,-1;674943,0,-1;722413,0,-1;605931,0,-1;605934,0,-1;605938,0,-1;605942,0,-1;610121,0,-1;767031,0,-1;731103,0,8;715756,0,68;769422,0,85;261663,0,39;134385,0,69;118737,0,70;711552,0,6;692086,0,7;774452,0,21;707211,0,17\",\r\n    \"_eexp\": \"539434,0,-1;500420,0,-1;613430,0,-1;674943,0,-1;722413,0,-1;605931,0,-1;605934,0,-1;605938,0,-1;610121,0,-1;731103,0,8;715756,0,68;769422,0,85;261663,0,39;134385,0,69;118737,0,70;711552,0,6;774452,0,21;707211,0,17\",\r\n    \"_service\": \"LIZA\",\r\n    \"_version\": \"110.2.0\",\r\n    \"_messages_per_page\": \"30\"\r\n}"
+				},
+				"url": {
+					"raw": "https://mail.yandex.ru/web-api/models/liza1?_m=do-messages,folders,labels,tabs",
+					"protocol": "https",
+					"host": [
+						"mail",
+						"yandex",
+						"ru"
+					],
+					"path": [
+						"web-api",
+						"models",
+						"liza1"
+					],
+					"query": [
+						{
+							"key": "_m",
+							"value": "do-messages,folders,labels,tabs"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Очистить папку Удаленные",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json, text/javascript, */*; q=0.01"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json; encoding=utf-8"
+					},
+					{
+						"key": "Cookie",
+						"value": "_ym_uid=1659030048192709895; is_gdpr=0; is_gdpr_b=CLryEBD8gAEoAg==; gdpr=0; mda=0; my=YwA=; amcuid=8921281611659030730; font_loaded=YSv1; stngs=stngs.1%3Acolorful%3A%3Atrue%3Atrue; lite-reset=247129982%7C1703148184%7C1703638641%7C1708401588%7C1660167920; i=80GRi7Sc7gzTdskt5H67GNw/+9fESsTBxxLQ8T10Mu+r2SRM/Tb+r8GTm5dnTi9qJLAii/7ODFdmeTiZTwbJDF3/8vk=; yandexuid=9840739331659029968; yuidss=9840739331659029968; ymex=1995541837.yrts.1680181837#1983346849.yrtsi.1667986849; ymai_iale=0; sae=0:4106F3C0-5C36-4650-B042-700908D6E212:p:23.3.4.603:w:d:RU:20220213; yabrowser-mail-notif=1; _ym_isad=2; Session_id=3:1684586777.5.3.1666975324998:xjyKLg:86.1.2:1|247129982.13492526.2.2:16515180.3:1683490504|343275130.14917154.2.2:14917154.3:1681892478|1660167920.16141192.2.2:16141192.3:1683116516|1708409717.17609160.2.2:17609160.3:1684584484|1703148184.17610911.2.2:17610911.3:1684586235|3:10270127.114314.V_zxj2-Tm_pUaSzL7LhYSzLMW3s; sessar=1.99.CiBrSVHXOwzZBIZyC9N5c4X78PemAeOrf5bsP1yYyGouJw.2VxeoMtY6vfD1H_5zxqxxwlVrv0sP9mNOub-nuQ1yyE; sessionid2=3:1684586777.5.3.1666975324998:xjyKLg:86.1.2:1|247129982.13492526.2.2:16515180.3:1683490504|343275130.14917154.2.2:14917154.3:1681892478|1660167920.16141192.2.2:16141192.3:1683116516|1708409717.17609160.2.2:17609160.3:1684584484|1703148184.17610911.2.2:17610911.3:1684586235|3:10270127.114314.fakesign0000000000000000000; L=UgRTCEkGdmlBVHZFemJgQFxgVQRuXwQCJwkXVTpiegM=.1684586777.15348.351497.111b1aefd38ed510cb65335dacd1f321; yandex_login=apbar005; _ym_d=1684586964; _yasc=N/nFP1QqALV3y2l2nttFfuyoPHBoAVCgLheRjNZ+qPLATI6Q36vRbyclSokbmeBBZ+HPQdQ/lITRgM+EN1x/j3Ksf9M=; ys=udn.cDphcGJhcjAwNQ%3D%3D#wprid.1684586982778065-8230930651614762118-balancer-l7leveler-kubr-yp-vla-95-BAL-4267#c_chck.36891167; cycada=zP/hU0vds+2XuQcDv1fsM//soogrVcD6wREls1vfys4=; bh=EjwiQ2hyb21pdW0iO3Y9IjExMCIsICJOb3QgQShCcmFuZCI7dj0iMjQiLCAiWWFCcm93c2VyIjt2PSIyMyIaBSJ4ODYiIgwiMjMuMy40LjYwMyIqAj8wOgkiV2luZG93cyJCCCIxMC4wLjAiSgQiNjQiUlQiQ2hyb21pdW0iO3Y9IjExMC4wLjU0ODEuMjA4IiwiTm90IEEoQnJhbmQiO3Y9IjI0LjAuMC4wIiwiWWFCcm93c2VyIjt2PSIyMy4zLjQuNjAzIiI=; yp=1684647756.uc.ru#1684647756.duc.ru#1995825834.skin.d#1716122356.cld.2270452#1716122356.brd.0401003747#1995825909.multib.1#1700350655.szm.1:1366x768:1366x652#1687261137.csc.1#1999946777.udn.cDphcGJhcjAwNQ%3D%3D#1999947104.pcs.1#1685264696.hdrc.1#1998853005.hks.0#1684594804.gpauto.55_221539:38_045082:100000:3:1684587604#1684850418.mcv.0#1684850418.mcl.17v619s"
+					},
+					{
+						"key": "Origin",
+						"value": "https://mail.yandex.ru"
+					},
+					{
+						"key": "Referer",
+						"value": "https://mail.yandex.ru/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.4.603 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"110\", \"Not A(Brand\";v=\"24\", \"YaBrowser\";v=\"23\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"models\": [\r\n        {\r\n            \"name\": \"do-folder-clear\",\r\n            \"params\": {\r\n                \"fid\": \"3\",\r\n                \"method\": \"purge\"\r\n            },\r\n            \"meta\": {\r\n                \"requestAttempt\": 1\r\n            }\r\n        },\r\n        {\r\n            \"name\": \"folders\",\r\n            \"params\": {},\r\n            \"meta\": {\r\n                \"requestAttempt\": 1\r\n            }\r\n        },\r\n        {\r\n            \"name\": \"labels\",\r\n            \"params\": {},\r\n            \"meta\": {\r\n                \"requestAttempt\": 1\r\n            }\r\n        },\r\n        {\r\n            \"name\": \"messages\",\r\n            \"params\": {\r\n                \"current_folder\": \"3\",\r\n                \"sort_type\": \"date\",\r\n                \"first\": \"0\",\r\n                \"count\": \"30\"\r\n            },\r\n            \"meta\": {\r\n                \"requestAttempt\": 1\r\n            }\r\n        }\r\n    ],\r\n    \"_ckey\": \"DldmRwHT6VWIiMd3++OVlHoSggw=!lhxewvv2!OMH+Rdgsms6LPY3+xI2KXhbgCfY=!3\",\r\n    \"_uid\": \"1708409717\",\r\n    \"_locale\": \"ru\",\r\n    \"_timestamp\": 1684587643128,\r\n    \"_product\": \"RUS\",\r\n    \"_connection_id\": \"LIZA-05880798-1684586778391\",\r\n    \"_exp\": \"539434,0,-1;500420,0,-1;613430,0,-1;674943,0,-1;722413,0,-1;605931,0,-1;605934,0,-1;605938,0,-1;605942,0,-1;610121,0,-1;767031,0,-1;731103,0,8;715756,0,68;769422,0,85;261663,0,39;134385,0,69;118737,0,70;711552,0,6;692086,0,7;774452,0,21;707211,0,17\",\r\n    \"_eexp\": \"539434,0,-1;500420,0,-1;613430,0,-1;674943,0,-1;722413,0,-1;605931,0,-1;605934,0,-1;605938,0,-1;610121,0,-1;731103,0,8;715756,0,68;769422,0,85;261663,0,39;134385,0,69;118737,0,70;711552,0,6;774452,0,21;707211,0,17\",\r\n    \"_service\": \"LIZA\",\r\n    \"_version\": \"110.2.0\",\r\n    \"_messages_per_page\": \"30\"\r\n}"
+				},
+				"url": {
+					"raw": "https://mail.yandex.ru/web-api/models/liza1?_m=do-folder-clear,folders,labels,messages",
+					"protocol": "https",
+					"host": [
+						"mail",
+						"yandex",
+						"ru"
+					],
+					"path": [
+						"web-api",
+						"models",
+						"liza1"
+					],
+					"query": [
+						{
+							"key": "_m",
+							"value": "do-folder-clear,folders,labels,messages"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Создать новую Папку",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json, text/javascript, */*; q=0.01"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json; encoding=utf-8"
+					},
+					{
+						"key": "Cookie",
+						"value": "_ym_uid=1659030048192709895; is_gdpr=0; is_gdpr_b=CLryEBD8gAEoAg==; gdpr=0; mda=0; my=YwA=; amcuid=8921281611659030730; font_loaded=YSv1; stngs=stngs.1%3Acolorful%3A%3Atrue%3Atrue; lite-reset=247129982%7C1703148184%7C1703638641%7C1708401588%7C1660167920; i=80GRi7Sc7gzTdskt5H67GNw/+9fESsTBxxLQ8T10Mu+r2SRM/Tb+r8GTm5dnTi9qJLAii/7ODFdmeTiZTwbJDF3/8vk=; yandexuid=9840739331659029968; yuidss=9840739331659029968; ymex=1995541837.yrts.1680181837#1983346849.yrtsi.1667986849; ymai_iale=0; sae=0:4106F3C0-5C36-4650-B042-700908D6E212:p:23.3.4.603:w:d:RU:20220213; yabrowser-mail-notif=1; _ym_isad=2; Session_id=3:1684586777.5.3.1666975324998:xjyKLg:86.1.2:1|247129982.13492526.2.2:16515180.3:1683490504|343275130.14917154.2.2:14917154.3:1681892478|1660167920.16141192.2.2:16141192.3:1683116516|1708409717.17609160.2.2:17609160.3:1684584484|1703148184.17610911.2.2:17610911.3:1684586235|3:10270127.114314.V_zxj2-Tm_pUaSzL7LhYSzLMW3s; sessar=1.99.CiBrSVHXOwzZBIZyC9N5c4X78PemAeOrf5bsP1yYyGouJw.2VxeoMtY6vfD1H_5zxqxxwlVrv0sP9mNOub-nuQ1yyE; sessionid2=3:1684586777.5.3.1666975324998:xjyKLg:86.1.2:1|247129982.13492526.2.2:16515180.3:1683490504|343275130.14917154.2.2:14917154.3:1681892478|1660167920.16141192.2.2:16141192.3:1683116516|1708409717.17609160.2.2:17609160.3:1684584484|1703148184.17610911.2.2:17610911.3:1684586235|3:10270127.114314.fakesign0000000000000000000; L=UgRTCEkGdmlBVHZFemJgQFxgVQRuXwQCJwkXVTpiegM=.1684586777.15348.351497.111b1aefd38ed510cb65335dacd1f321; yandex_login=apbar005; ys=udn.cDphcGJhcjAwNQ%3D%3D#wprid.1684586982778065-8230930651614762118-balancer-l7leveler-kubr-yp-vla-95-BAL-4267#c_chck.36891167; _yasc=RmzpfvcQxskWffh63Xcayyzro4OZQiLTRjYemXQl+qJhm/Qs8bHA6y/s3fKtoyVerTzM+xMGajNy9JZbGy9vm5U7ms8=; cycada=t+EqvupBIFbR9WYp1n/7MP/soogrVcD6wREls1vfys4=; yp=1684647756.uc.ru#1684647756.duc.ru#1995825834.skin.d#1716122356.cld.2270452#1716122356.brd.0401003747#1995825909.multib.1#1700350655.szm.1:1366x768:1366x652#1687261137.csc.1#1999946777.udn.cDphcGJhcjAwNQ%3D%3D#1999947104.pcs.1#1685264696.hdrc.1#1998853005.hks.0#1684597204.gpauto.55_221539:38_045082:100000:3:1684590004#1684850418.mcv.0#1684850418.mcl.17v619s; bh=EjwiQ2hyb21pdW0iO3Y9IjExMCIsICJOb3QgQShCcmFuZCI7dj0iMjQiLCAiWWFCcm93c2VyIjt2PSIyMyIaBSJ4ODYiIgwiMjMuMy40LjYwMyIqAj8wOgkiV2luZG93cyJCCCIxMC4wLjAiSgQiNjQiUlQiQ2hyb21pdW0iO3Y9IjExMC4wLjU0ODEuMjA4IiwiTm90IEEoQnJhbmQiO3Y9IjI0LjAuMC4wIiwiWWFCcm93c2VyIjt2PSIyMy4zLjQuNjAzIiI="
+					},
+					{
+						"key": "Origin",
+						"value": "https://mail.yandex.ru"
+					},
+					{
+						"key": "Referer",
+						"value": "https://mail.yandex.ru/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.4.603 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"110\", \"Not A(Brand\";v=\"24\", \"YaBrowser\";v=\"23\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"models\": [\r\n        {\r\n            \"name\": \"do-folders-add\",\r\n            \"params\": {\r\n                \"folder_name\": \"Важные письма2\"\r\n            },\r\n            \"meta\": {\r\n                \"requestAttempt\": 1\r\n            }\r\n        },\r\n        {\r\n            \"name\": \"folders\",\r\n            \"params\": {},\r\n            \"meta\": {\r\n                \"requestAttempt\": 1\r\n            }\r\n        }\r\n    ],\r\n    \"_ckey\": \"pDM1bmIXQCkdB6QIURqCs34qoRo=!lhxfhs8x!doAkxkwPCeBndfK02QIru5ylC74=!3\",\r\n    \"_uid\": \"1708409717\",\r\n    \"_locale\": \"ru\",\r\n    \"_timestamp\": 1684590224058,\r\n    \"_product\": \"RUS\",\r\n    \"_connection_id\": \"LIZA-83673503-1684587753477\",\r\n    \"_exp\": \"539434,0,-1;500420,0,-1;613430,0,-1;674943,0,-1;722413,0,-1;605931,0,-1;605934,0,-1;605938,0,-1;605942,0,-1;610121,0,-1;767031,0,-1;731103,0,8;715756,0,68;769422,0,85;261663,0,39;134385,0,69;118737,0,70;711552,0,6;692086,0,7;774452,0,21;707211,0,17\",\r\n    \"_eexp\": \"539434,0,-1;500420,0,-1;613430,0,-1;674943,0,-1;722413,0,-1;605931,0,-1;605934,0,-1;605938,0,-1;610121,0,-1;731103,0,8;715756,0,68;769422,0,85;261663,0,39;134385,0,69;118737,0,70;711552,0,6;774452,0,21;707211,0,17\",\r\n    \"_service\": \"LIZA\",\r\n    \"_version\": \"110.2.0\",\r\n    \"_messages_per_page\": \"30\"\r\n}"
+				},
+				"url": {
+					"raw": "https://mail.yandex.ru/web-api/models/liza1?_m=do-folders-add,folders",
+					"protocol": "https",
+					"host": [
+						"mail",
+						"yandex",
+						"ru"
+					],
+					"path": [
+						"web-api",
+						"models",
+						"liza1"
+					],
+					"query": [
+						{
+							"key": "_m",
+							"value": "do-folders-add,folders"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Очистить папку Спам",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json, text/javascript, */*; q=0.01"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json; encoding=utf-8"
+					},
+					{
+						"key": "Cookie",
+						"value": "_ym_uid=1659030048192709895; is_gdpr=0; is_gdpr_b=CLryEBD8gAEoAg==; gdpr=0; mda=0; my=YwA=; amcuid=8921281611659030730; font_loaded=YSv1; stngs=stngs.1%3Acolorful%3A%3Atrue%3Atrue; lite-reset=247129982%7C1703148184%7C1703638641%7C1708401588%7C1660167920; i=80GRi7Sc7gzTdskt5H67GNw/+9fESsTBxxLQ8T10Mu+r2SRM/Tb+r8GTm5dnTi9qJLAii/7ODFdmeTiZTwbJDF3/8vk=; yandexuid=9840739331659029968; yuidss=9840739331659029968; ymex=1995541837.yrts.1680181837#1983346849.yrtsi.1667986849; ymai_iale=0; sae=0:4106F3C0-5C36-4650-B042-700908D6E212:p:23.3.4.603:w:d:RU:20220213; yabrowser-mail-notif=1; _ym_isad=2; Session_id=3:1684590380.5.3.1666975324998:xjyKLg:86.1.2:1|247129982.13492526.2.2:16515180.3:1683490504|343275130.14917154.2.2:14917154.3:1681892478|1660167920.16141192.2.2:16141192.3:1683116516|1708409717.17609160.2.2:17609160.3:1684584484|1703148184.17610911.2.2:17610911.3:1684586235|3:10270129.28279.WB_8BnOHBPfT6NptFTsL15DijFc; sessar=1.99.CiDyMGV_zzFZkNebGCltXkmazoQ-a7LOZcotLoinrR3TsA.ZRZI_2m6KjFzcNLWGb2Z5UdZy93amv9LYMIjYPAQx5s; sessionid2=3:1684590380.5.3.1666975324998:xjyKLg:86.1.2:1|247129982.13492526.2.2:16515180.3:1683490504|343275130.14917154.2.2:14917154.3:1681892478|1660167920.16141192.2.2:16141192.3:1683116516|1708409717.17609160.2.2:17609160.3:1684584484|1703148184.17610911.2.2:17610911.3:1684586235|3:10270129.28279.fakesign0000000000000000000; L=UgRTCEkGdmlBVHZFemJiQVZrUwFuXwEEJwkXVTpiegM=.1684590380.15348.376874.c8e5c870b6d0cce42082be3d5ea67d2f; yandex_login=apbar005; ys=udn.cDphcGJhcjAwNQ%3D%3D#c_chck.2061963457; _ym_d=1684591449; _yasc=R3b5Uezv9cw64Xj0tGj4rFm66OWDw8UDiBUple2jTybEXVCnQG1cj0Z9j17Ca+IUjm/ffrjgMHfEgLUKjJN4kiPLBV8=; cycada=xDHilMiNOaNBkPtmXdNR/v/soogrVcD6wREls1vfys4=; yp=1684647756.uc.ru#1684647756.duc.ru#1995825834.skin.d#1716122356.cld.2270452#1716122356.brd.0401003747#1995825909.multib.1#1700350655.szm.1:1366x768:1366x652#1687261137.csc.1#1999950380.udn.cDphcGJhcjAwNQ%3D%3D#1999947104.pcs.1#1685264696.hdrc.1#1998853005.hks.0#1684599604.gpauto.55_221539:38_045082:100000:3:1684592404#1684850418.mcv.0#1684850418.mcl.17v619s; bh=EjwiQ2hyb21pdW0iO3Y9IjExMCIsICJOb3QgQShCcmFuZCI7dj0iMjQiLCAiWWFCcm93c2VyIjt2PSIyMyIaBSJ4ODYiIgwiMjMuMy40LjYwMyIqAj8wOgkiV2luZG93cyJCCCIxMC4wLjAiSgQiNjQiUlQiQ2hyb21pdW0iO3Y9IjExMC4wLjU0ODEuMjA4IiwiTm90IEEoQnJhbmQiO3Y9IjI0LjAuMC4wIiwiWWFCcm93c2VyIjt2PSIyMy4zLjQuNjAzIiI="
+					},
+					{
+						"key": "Origin",
+						"value": "https://mail.yandex.ru"
+					},
+					{
+						"key": "Referer",
+						"value": "https://mail.yandex.ru/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.4.603 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"110\", \"Not A(Brand\";v=\"24\", \"YaBrowser\";v=\"23\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"models\":[{\"name\":\"do-folder-clear\",\"params\":{\"fid\":\"2\",\"method\":\"purge\"},\"meta\":{\"requestAttempt\":1}},{\"name\":\"folders\",\"params\":{},\"meta\":{\"requestAttempt\":1}},{\"name\":\"labels\",\"params\":{},\"meta\":{\"requestAttempt\":1}},{\"name\":\"messages\",\"params\":{\"current_folder\":\"2\",\"sort_type\":\"date\",\"first\":\"0\",\"count\":\"30\"},\"meta\":{\"requestAttempt\":1}}],\"_ckey\":\"YD3cXOi6Tf9DI5ka1LXDtAiTCME=!lhxi66r2!Lr/75PhVqVyX0so9HAos81RwZxA=!3\",\"_uid\":\"1708409717\",\"_locale\":\"ru\",\"_timestamp\":1684592504409,\"_product\":\"RUS\",\"_connection_id\":\"LIZA-63877336-1684592251264\",\"_exp\":\"539434,0,-1;500420,0,-1;613430,0,-1;674943,0,-1;722413,0,-1;605931,0,-1;605934,0,-1;605938,0,-1;605942,0,-1;610121,0,-1;767031,0,-1;731103,0,8;715756,0,68;769422,0,85;261663,0,39;134385,0,69;118737,0,70;711552,0,6;692086,0,7;774452,0,21;707211,0,17\",\"_eexp\":\"539434,0,-1;500420,0,-1;613430,0,-1;674943,0,-1;722413,0,-1;605931,0,-1;605934,0,-1;605938,0,-1;610121,0,-1;731103,0,8;715756,0,68;769422,0,85;261663,0,39;134385,0,69;118737,0,70;711552,0,6;774452,0,21;707211,0,17\",\"_service\":\"LIZA\",\"_version\":\"110.2.0\",\"_messages_per_page\":\"30\"}"
+				},
+				"url": {
+					"raw": "https://mail.yandex.ru/web-api/models/liza1?_m=do-folder-clear,folders,labels,messages",
+					"protocol": "https",
+					"host": [
+						"mail",
+						"yandex",
+						"ru"
+					],
+					"path": [
+						"web-api",
+						"models",
+						"liza1"
+					],
+					"query": [
+						{
+							"key": "_m",
+							"value": "do-folder-clear,folders,labels,messages"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
